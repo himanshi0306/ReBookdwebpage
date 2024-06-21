@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border:border-box;
+    font-size: 10px;
+}
+.navbar{
+    width:800px;
+    height:100px;
+    background-color:#deb887;
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    display: inline;
+    position:relative;
+    bottom:5px;
+    right:1px;
+    color:maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .nav-logo{
+        height: 30px;
+        width: 80px;
+        margin-left: 5px;
+    }
+    .logo{
+        height:40px;
+        width:100%;
+    }
+    .border{
+        border:3px solid transparent;
+    }
+    .bordersearch{
+        border:3px solid transparent;
+    }
+    .bordersearch:hover{
+        border:3px solid maroon;
+    }
+    .border:hover{
+        border:3px solid white;
+    }
+    .address-icon{
+        display: flex;
+        align-items: center;
+    }
+    .address1{
+        font-size: 20px;
+        color:rgb(7, 7, 7);
+        margin-left: 5px;
+    }
+    .address2{
+        font-size: 20px;
+        margin-left: 3px;
+    }
+    .searchbox{
+        display: flex;
+        border-radius: 5px;
+        align-items: center;
+    }
+    .search-icon{
+        background-color:salmon;
+        color:black;
+        height: 16px;
+        width: 40px;
+        text-align: center;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border:none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .searchinput{
+        width:100px;
+        height:14px;
+        border:none;
+    }
+    .selectmenu{
+        width: 50px;
+        height:16px;
+        border:none;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        margin-left: 5px;
+    }
+    .nav-info{
+        display: flex;
+        margin-left: 5px;
+    }
+    #contact, #about, #shop{
+        margin-left: 3px;
+    }
+    .selectcategories{
+        margin-left: 5px;
+    }
+    #signinreturn1{
+        font-size: 12px;
+    }
+    #signinreturn2{
+        font-size: 14px;
+    }
+    .cartoption i{
+        font-size:25px;
+    }
+    .cartoption{
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        font-weight: 700;
+    }
+
+    .panel{
+        width:800px;
+        display: flex;
+        background-color: #eac697;
+        height:40px;
+        align-items: center;
+        font-weight: 700;
+    }
+    .panel-all, .resell, .customer, .deals{
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .hero-image-display{
+        background-image: url("hero_image.jpg");
+        background-size: cover;
+        width:800px;
+        height:250px;
+    }
+    .hero-message{
+        background-color: white;
+        height:50px;
+        font-size: 40px;
+        font-weight: 900;
+        position:relative;
+        top: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .book-section{
+        width:800px;
+        height: 1650px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: rgb(251, 232, 111);
+    }
+    .box{
+        height:350px;
+        width:40%;
+        background-color: #ffffff;
+        padding: 20px 0px 0px;
+        margin-top: 30px;
+        margin-right: 5px;
+        box-shadow: 0px 0px 10px black;
+    }
+    .boxcontent{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+        color:crimson;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .mystery{
+        background-image: url("mysterybook.jpg");
+        background-size: cover;
+        height:270px;
+        width:270px;
+        position:relative;
+        left:15px;
+    }
+    .romance{
+        background-image: url("romancebook.png");
+        background-size: cover;
+        height:270px;
+        width:270px;
+        position:relative;
+        left:5px;
+       
+    }
+    .scifi{
+        background-image: url("scifi.webp");
+        background-size: cover;
+        height:270px;
+        width:270px;
+        position:relative;
+        left:15px;
+    }
+    .selfhelp{
+        background-image: url("selfhelpbook.webp");
+        background-size: cover;
+        height:270px;
+        width:270px;
+        position:relative;
+        left:15px;
+    }
+    .hindi{
+        background-image: url("hindi.webp");
+        background-size: cover;
+        height:270px;
+        width:270px;
+        position:relative;
+        left:15px;
+    }
+    .child{
+        background-image: url("children.jpg");
+        background-size: cover;
+        height:270px;
+        width:270px;
+        position:relative;
+        left:15px;
+    }
+    .horror{
+        background-image: url("horror.jpg");
+        background-size: cover;
+        height:270px;
+        width:270px;
+        position:relative;
+        left:15px;
+    }
+    .short{
+        background-image: url("short.webp");
+        background-size: cover;
+        height:270px;
+        width:270px;
+        position:relative;
+        left:15px;
+    }
+    .foot{
+        margin-top: 5px;
+        background-color: rgb(199, 239, 124);
+        color: darkblue;
+        font-size: 30px;
+        height: 50px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .foot-panel{
+        background-color: rgb(182, 253, 40);
+        color: darkblue;
+        font-size: 30px;
+        height: 100px;
+        width:800px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 15px;
+    }
+    .footcontent{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .copyright{
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    }
+    
+    hr{
+        color: maroon;
+        
+    }
+    
+/* existing styles */
+
+/* laptop media query */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    /* adjust styles for laptop screen size */
+    .navbar {
+      width: 100%;
+      height: 60px;
+    }
+    .logo {
+      bottom: 10px;
+      right: 5px;
+      font-size: 18px;
+    }
+    .nav-logo {
+      height: 20px;
+      width: 100px;
+      margin-left: 10px;
+    }
+    .searchbox {
+      width: 250px;
+      margin: 10px;
+    }
+    .searchinput {
+      width: 200px;
+      height: 25px;
+      font-size: 16px;
+    }
+    .selectmenu {
+      width: 75px;
+      height: 25px;
+      font-size: 16px;
+    }
+    .search-icon{
+        height: 32px;
+        width: 40px;
+    }
+    
+    .panel {
+      width: 100%;
+      height: 30px;
+    }
+    .hero-image-display {
+      width: 100%;
+      height: 300px;
+    }
+    .hero-message {
+      font-size: 25px;
+      top: 220px;
+    }
+    .book-section {
+      width: 100%;
+      height: 1100px;
+    }
+    .box {
+      height: 300px;
+      width: 30%;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+    .boxcontent {
+      margin-left: 15px;
+      margin-bottom: 15px;
+      font-size: 25px;
+    }
+    .mystery, .child, .hindi, .horror, .short, .romance, .scifi, .selfhelp{
+        height:230px;
+        width:230px;
+        position: relative;
+        left:20px;
+        
+    }
+    .foot {
+      margin-top: 10px;
+      height: 60px;
+      width: 100%;
+    }
+    .foot-panel {
+      height: 100px;
+      width: 100%;
+    }
+    .footcontent {
+      margin-top: 30px;
+      font-size: 25px;
+    }
+  }
+  /* laptop media query */
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+    /* adjust styles for larger laptop screen size */
+    .navbar {
+      width: 100%;
+      height: 80px;
+    }
+    .logo {
+      bottom: 10px;
+      right: 5px;
+      font-size: 30px;
+    }
+    .search-icon{
+        height: 32px;
+        width: 40px;
+    }
+    .nav-logo {
+      height: 40px;
+      width: 120px;
+      margin-left: 10px;
+    }
+    .mystery, .child, .hindi, .horror, .short, .scifi, .selfhelp{
+        height:500px;
+        width:500px;
+        position: relative;
+        left:30px;
+    }
+    .romance{
+        height:500px;
+        width:530px;
+    }
+    .searchbox {
+      width: 620px;
+    }
+    .searchinput {
+      width: 620px;
+      height: 30px;
+      font-size: 20px;
+    }
+    .selectmenu {
+      width: 75px;
+      height: 32px;
+      font-size: 18px;
+    }
+    .panel {
+      width: 100%;
+      height: 40px;
+    }
+    .hero-image-display {
+      width: 100%;
+      height: 400px;
+    }
+    .hero-message {
+      font-size: 40px;
+      top: 320px;
+    }
+    .book-section {
+      width: 100%;
+      height: 2800px;
+    }
+    .box {
+      height: 600px;
+      width: 40%;
+      margin-top: 40px;
+      margin-right: 10px;
+      font-size: 30px;
+    }
+    .boxcontent {
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+    .foot {
+      margin-top: 10px;
+      height: 80px;
+      width: 100%;
+    }
+    .foot-panel {
+      height: 200px;
+      width: 100%;
+    }
+    .footcontent {
+      margin-top: 30px;
+      font-size: 30px;
+    }
+  }
